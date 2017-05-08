@@ -5,6 +5,8 @@
 
 A Simple MVC Framework for PHP OOP Developer 
 
+This is a simple MVC framework for building websites, the purpose of this work is to understand the internal functioning of a PHP framework, and show how to integrate the pattern designe from other MVC framework ( Doctrine ORM,DI, ...) 
+
 ## Install 
 ```bash
 git clone https://github.com/nfouka/MVC4PHP.git
