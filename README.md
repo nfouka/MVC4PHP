@@ -43,3 +43,5 @@ php -S 127.0.0.1:8888 index.php
 Module item : http://127.0.0.1:8888/ ; http://127.0.0.1:8888/index.php?query=item/acheter-le-pain/item
 Module item1 : http://127.0.0.1:8888/ ; http://127.0.0.1:8888/index.php?query=item1/acheter-le-pain/item1
 ```
+## Credit 
+nadir@fouka.ovh
