@@ -1,5 +1,5 @@
 <?php
-
+namespace app\kernel;
 class View {
    protected $_route;
    protected $bundle ; 

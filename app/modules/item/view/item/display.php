@@ -5,7 +5,7 @@
    <title>Todo list</title>
    <base href="http://localhost/todolist/www/"/>
          <?php
-                include __DIR__."/../../../../../www/public/header.php" ; 
+                include "public/header.php" ; 
       ?>
 </head>
 <body>
@@ -19,8 +19,8 @@
       <h1>Exemple d'applion</h1>
    </header>
    <h2>Détail d'une chose à faire</h2>
-   <h3><?php echo $this->item->description; ?></h3>
-   <p>A faire avant le <?php echo $this->item->expiration; ?></p>
+   <h3><?php echo $this->item["description"] ; ?></h3>
+   <p>A faire avant le <?php echo $this->item["expiration"] ; ?></p>
   
    
      <footer class="footer">

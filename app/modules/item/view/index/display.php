@@ -5,7 +5,7 @@
    <title>Todo list</title>
    <base href="http://127.0.0.1:8888"/>
       <?php
-                include __DIR__."/../../../../../www/public/header.php" ; 
+                include "public/header.php" ; 
       ?>
 </head>
 <body>
@@ -24,7 +24,7 @@
    <h2>Liste de choses à faire</h2>
    <ul>
       <?php foreach($this->list as $item) : ?>
-      <li><a href="index.php?query=item/<?php echo $item->slug . "/item";?>"><?php echo $item->description;?></a></li>
+      <li><a href="index.php?query=item/<?php echo $item['slug'] . "/item";?>"><?php echo $item['description'] ;?></a></li>
 
       <?php endforeach;?>
    </ul>

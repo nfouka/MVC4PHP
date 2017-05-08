@@ -1,18 +1,18 @@
 <?php
-
+namespace app\kernel;
 class Database {
    static protected $_instance = null;
    protected $_db;
 
    static public function getInstance() {
       if( is_null(self::$_instance) )
-         self::$_instance = new Database();
+         self::$_instance = new Database () ; 
       return self::$_instance;
    }
 
    protected function __construct() {
       // A faire : fichier de config
-      $this->_db = new PDO(
+      $this->_db = new \PDO(
          "mysql:host=localhost;dbname=todolist;charset=utf8",
          "root",
          "root"

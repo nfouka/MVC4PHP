@@ -1,5 +1,5 @@
 <?php
-
+namespace app\kernel;
 class Router {
    public static function analyze( $query ) {
 
