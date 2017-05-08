@@ -29,7 +29,7 @@ In Database.php
 
 ## Update your DB ( Mysql ONLY ) 
 ```bash
-mysql > source 'localhost.sql' 
+mysql > source 'todolist.sql' 
 ```
 
 ## Run MVC4PHP7 
