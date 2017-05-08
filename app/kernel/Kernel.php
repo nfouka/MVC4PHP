@@ -7,7 +7,8 @@ class Kernel {
      
       $query = isset($_GET["query"]) ? $_GET["query"] : "";
       $route = Router::analyze( $query );
-      $class = "\\app\\modules\\item\\controller\\".$route["controller"]."Controller";
+      $classFromRoute = $route["controller"]."Controller";
+      $class = "app\\modules\\".$route["bundle"]."\\controller\\".$route["controller"]."Controller";
       
       if(class_exists($class)) {
           $bundle = $route["controller"]  ; 
