@@ -11,7 +11,9 @@
 	       "psr-4": {
                 "app\\kernel\\": "kernel" , 
                 "app\\modules\\item\\controller\\"  : "modules/item/controller/" , 
-                "app\\modules\\item\\model\\"       : "modules/item/model/"
+                "app\\modules\\item\\model\\"       : "modules/item/model/" , 
+                "app\\modules\\item1\\controller\\"  : "modules/item1/controller/" , 
+                "app\\modules\\item1\\model\\"       : "modules/item1/model/"
                         }
 }
 }
