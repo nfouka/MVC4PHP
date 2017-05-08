@@ -12,14 +12,14 @@
     
   <div class="container">
   <div class="jumbotron">
-    <h1>MVC4PHP Buid Your Framework easly With PHP7</h1>      
+    <h1>MVC4PHP A PHP Framewok</h1>      
     <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
   </div>
    
 
     
    <header>
-     <h1>Exemple d'application Module item</h1>
+     <h1>Exemple d'application Module M2</h1>
    </header>
    <h2>Liste de choses à faire</h2>
    <ul>
@@ -28,10 +28,11 @@
 
       <?php endforeach;?>
    </ul>
-   <footer>
-      <p>Pied de page...</p>
-   </footer>
+
    </div>
+             <?php
+                include "public/footer.php" ; 
+        ?>
 </body>
 
 </html>
